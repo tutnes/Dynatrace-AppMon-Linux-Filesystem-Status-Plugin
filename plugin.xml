@@ -9,10 +9,10 @@
       <supportlevel value="unsupported" />
     </information>
     <configuration>
-      <property key="Filesystem" label="Filesystem" type="string" description="Linux filesystem name." default="" />
-      <property key="method" label="Method" type="string" description="Specify the type of connection." default="SSH" />
-      <property key="authMethod" label="Authentication Method" type="string" description="Specify the type of SSH Authentication." default="Password" />
-      <property key="serverUsername" label="Username" type="string" description="The username that is used for authorization with the host." default="" />
+      <property key="Filesystem" label="Filesystem" type="string" description="Linux filesystem name." default="" multiline="false" />
+      <property key="method" label="Method" type="string" description="Specify the type of connection." default="SSH" multiline="false" />
+      <property key="authMethod" label="Authentication Method" type="string" description="Specify the type of SSH Authentication." default="Password" multiline="false" />
+      <property key="serverUsername" label="Username" type="string" description="The username that is used for authorization with the host." default="" multiline="false" />
       <property key="serverPassword" label="Password" type="password" description="The password for the username." default="" />
     </configuration>
   </extension>
@@ -25,4 +25,3 @@
     </metricgroup>
   </extension>
 </plugin>
-

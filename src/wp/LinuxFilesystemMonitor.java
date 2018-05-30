@@ -18,8 +18,12 @@ import com.dynatrace.diagnostics.pdk.MonitorEnvironment;
 import com.dynatrace.diagnostics.pdk.MonitorMeasure;
 import com.dynatrace.diagnostics.pdk.Status;
 
-import ch.ethz.ssh2.Connection;
-import ch.ethz.ssh2.Session;
+
+// Replaced old ganymed with semi new from trilead and jenkins ci
+//import ch.ethz.ssh2.Connection;
+//import ch.ethz.ssh2.Session;
+import com.trilead.ssh2.Connection;
+import com.trilead.ssh2.Session;
 
 public class LinuxFilesystemMonitor {
 
